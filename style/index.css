@@ -259,7 +259,6 @@ nav.topBar a {
 div.boxes {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 #box1 {
@@ -315,5 +314,29 @@ div.boxes {
   .middle-content .boxes .box {
     width: 100px;
     text-align: center;
+  }
+  section.top-content {
+    flex-direction: column;
+  }
+
+  section.top-content div.text-container {
+    width: 100%;
+  }
+
+  nav.topBar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.topbar img {
+  }
+
+  nav.topBar a {
+    padding: 3%;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 1px 0;
   }
 }
